@@ -1,0 +1,2 @@
+2022-12-27 18:30:06.8050||DEBUG|Ecommerce.api.product.Program|init main Login API |url: |action: 
+2022-12-27 18:30:23.8284||ERROR|Ecommerce.api.product.Controllers.ProductController|Error while getting Data Not Found |url: |action: 

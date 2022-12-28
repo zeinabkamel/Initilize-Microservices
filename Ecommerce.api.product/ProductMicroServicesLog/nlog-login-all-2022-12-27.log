@@ -1,0 +1,90 @@
+2022-12-27 18:30:06.8050||DEBUG|Ecommerce.api.product.Program|init main Login API 
+2022-12-27 18:30:09.4961||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2022-12-27 18:30:10.0155||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Ecommerce.api.product 
+2022-12-27 18:30:10.0392||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh 
+2022-12-27 18:30:10.0392||DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net 
+2022-12-27 18:30:10.0846||INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-12-27 18:30:10.0846||INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-12-27 18:30:10.0846||INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\zeinab.mahmoud\source\repos\Ecommerce\Ecommerce.api.product 
+2022-12-27 18:30:10.0846||DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2022-12-27 18:30:10.1527||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2.0 GET https://localhost:44378/api/products   
+2022-12-27 18:30:10.2162||DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2022-12-27 18:30:10.2162||TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2022-12-27 18:30:10.2971||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/products' 
+2022-12-27 18:30:10.2971||DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product)' with route pattern 'api/products' is valid for the request path '/api/products' 
+2022-12-27 18:30:10.3137||DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product)' 
+2022-12-27 18:30:10.3137||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product)' 
+2022-12-27 18:30:10.3370||DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider 
+2022-12-27 18:30:10.4770||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller Ecommerce.api.product.Controllers.ProductController (Ecommerce.api.product). 
+2022-12-27 18:30:10.4857||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2022-12-27 18:30:10.4857||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None 
+2022-12-27 18:30:10.4857||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000) 
+2022-12-27 18:30:10.4857||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2022-12-27 18:30:10.4857||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000) 
+2022-12-27 18:30:10.4857||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Ecommerce.api.product.Controllers.ProductController (Ecommerce.api.product) 
+2022-12-27 18:30:10.7420||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2022-12-27 18:30:11.7409||INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 3.0.1 initialized 'ProductDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=ProductDB  
+2022-12-27 18:30:12.0550||DEBUG|Microsoft.EntityFrameworkCore.Query|(queryContext) => new QueryingEnumerable<Product>(
+    queryContext, 
+    Select<ValueBuffer, ValueBuffer>(
+        source: Table(
+            queryContext: queryContext, 
+            entityType: EntityType: Product), 
+        selector: (valueBuffer) => new ValueBuffer(new object[]
+        { 
+            (object)TryReadValue<int>(valueBuffer, 0, Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            TryReadValue<string>(valueBuffer, 1, Property: Product.Code (string)), 
+            (object)TryReadValue<int>(valueBuffer, 2, Property: Product.Inventory (int) Required), 
+            TryReadValue<string>(valueBuffer, 3, Property: Product.Name (string)), 
+            (object)TryReadValue<double>(valueBuffer, 4, Property: Product.Price (double) Required) 
+        })), 
+    Func<QueryContext, ValueBuffer, Product>, 
+    Ecommerce.api.product.Db.ProductDbContext, 
+    DiagnosticsLogger<Query>
+) 
+2022-12-27 18:30:12.0783||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Ecommerce.api.product.Controllers.ProductController (Ecommerce.api.product) 
+2022-12-27 18:30:12.0783||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-12-27 18:30:12.0783||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-12-27 18:30:12.0783||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-12-27 18:30:12.0783||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-12-27 18:30:12.2575||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product) - Validation state: Valid 
+2022-12-27 18:30:15.4868||DEBUG|Microsoft.EntityFrameworkCore.Query|(queryContext) => new QueryingEnumerable<Product>(
+    queryContext, 
+    Select<ValueBuffer, ValueBuffer>(
+        source: Table(
+            queryContext: queryContext, 
+            entityType: EntityType: Product), 
+        selector: (valueBuffer) => new ValueBuffer(new object[]
+        { 
+            (object)TryReadValue<int>(valueBuffer, 0, Property: Product.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd), 
+            TryReadValue<string>(valueBuffer, 1, Property: Product.Code (string)), 
+            (object)TryReadValue<int>(valueBuffer, 2, Property: Product.Inventory (int) Required), 
+            TryReadValue<string>(valueBuffer, 3, Property: Product.Name (string)), 
+            (object)TryReadValue<double>(valueBuffer, 4, Property: Product.Price (double) Required) 
+        })), 
+    Func<QueryContext, ValueBuffer, Product>, 
+    Ecommerce.api.product.Db.ProductDbContext, 
+    DiagnosticsLogger<Query>
+) 
+2022-12-27 18:30:23.8284||ERROR|Ecommerce.api.product.Controllers.ProductController|Error while getting Data Not Found 
+2022-12-27 18:30:23.8539||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 11578.5533ms. 
+2022-12-27 18:30:23.8539||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-12-27 18:30:23.8539||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter. 
+2022-12-27 18:30:23.8539||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-12-27 18:30:23.8539||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2022-12-27 18:30:23.8539||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-12-27 18:30:23.8599||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter|Replacing Microsoft.AspNetCore.Mvc.NotFoundResult with status code 404 with Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022-12-27 18:30:23.8599||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-12-27 18:30:23.8599||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022-12-27 18:30:23.8599||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter 
+2022-12-27 18:30:23.8599||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation. 
+2022-12-27 18:30:23.8599||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml'. 
+2022-12-27 18:30:23.8599||DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response. 
+2022-12-27 18:30:23.8599||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2022-12-27 18:30:23.9254||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult. 
+2022-12-27 18:30:23.9254||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-12-27 18:30:23.9254||TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter. 
+2022-12-27 18:30:23.9254||INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product) in 13436.5406ms 
+2022-12-27 18:30:23.9254||INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Ecommerce.api.product.Controllers.ProductController.GetProducts (Ecommerce.api.product)' 
+2022-12-27 18:30:23.9479||DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ProductDbContext' disposed. 
+2022-12-27 18:30:23.9479||INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 13805.8659ms 404 application/problem+json; charset=utf-8 
