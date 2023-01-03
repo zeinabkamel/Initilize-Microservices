@@ -1,0 +1,20 @@
+2023-01-03 17:11:51.1887 Info Message Template Auto Format enabled
+2023-01-03 17:11:51.2923 Info Loading assembly: NLog.Web.AspNetCore
+2023-01-03 17:11:51.4912 Info Registered target FileTarget(Name=allfile)
+2023-01-03 17:11:51.5102 Info Registered target FileTarget(Name=ownFile-web)
+2023-01-03 17:11:51.6212 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=47, FilePath=/app/bin/Debug/netcoreapp3.1/nlog.config
+2023-01-03 17:29:51.0144 Info Message Template Auto Format enabled
+2023-01-03 17:29:51.1834 Info Loading assembly: NLog.Web.AspNetCore
+2023-01-03 17:29:51.5487 Info Registered target FileTarget(Name=allfile)
+2023-01-03 17:29:51.5763 Info Registered target FileTarget(Name=ownFile-web)
+2023-01-03 17:29:51.7672 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=47, FilePath=/app/bin/Debug/netcoreapp3.1/nlog.config
+2023-01-03 17:34:42.9613 Info Message Template Auto Format enabled
+2023-01-03 17:34:43.0971 Info Loading assembly: NLog.Web.AspNetCore
+2023-01-03 17:34:43.4985 Info Registered target FileTarget(Name=allfile)
+2023-01-03 17:34:43.5128 Info Registered target FileTarget(Name=ownFile-web)
+2023-01-03 17:34:43.6981 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=47, FilePath=/app/bin/Debug/netcoreapp3.1/nlog.config
+2023-01-03 17:46:31.9360 Info Message Template Auto Format enabled
+2023-01-03 17:46:32.0506 Info Loading assembly: NLog.Web.AspNetCore
+2023-01-03 17:46:32.2734 Info Registered target FileTarget(Name=allfile)
+2023-01-03 17:46:32.2734 Info Registered target FileTarget(Name=ownFile-web)
+2023-01-03 17:46:32.3874 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=47, FilePath=/app/bin/Debug/netcoreapp3.1/nlog.config
