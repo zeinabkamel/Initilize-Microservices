@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.product\\Ecommerce.api.product.csproj": {}
+    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.product\\Ecommerce.api.product.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.product\\Ecommerce.api.product.csproj": {
+    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.product\\Ecommerce.api.product.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.product\\Ecommerce.api.product.csproj",
+        "projectUniqueName": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.product\\Ecommerce.api.product.csproj",
         "projectName": "Ecommerce.api.product",
-        "projectPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.product\\Ecommerce.api.product.csproj",
+        "projectPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.product\\Ecommerce.api.product.csproj",
         "packagesPath": "C:\\Users\\zeinab.mahmoud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.product\\obj\\",
+        "outputPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.product\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

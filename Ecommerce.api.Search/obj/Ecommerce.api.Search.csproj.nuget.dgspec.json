@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj": {}
+    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj": {
+    "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj",
+        "projectUniqueName": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj",
         "projectName": "Ecommerce.api.Search",
-        "projectPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj",
+        "projectPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.Search\\Ecommerce.api.Search.csproj",
         "packagesPath": "C:\\Users\\zeinab.mahmoud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.Search\\obj\\",
+        "outputPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.Search\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[3.0.1, )"
             },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -79,6 +83,14 @@
             "NLog.Web.AspNetCore": {
               "target": "Package",
               "version": "[5.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.3, )"
             }
           },
           "imports": [

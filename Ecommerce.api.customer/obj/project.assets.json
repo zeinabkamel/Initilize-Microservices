@@ -1374,11 +1374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.customer\\Ecommerce.api.customer.csproj",
+      "projectUniqueName": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.customer\\Ecommerce.api.customer.csproj",
       "projectName": "Ecommerce.api.customer",
-      "projectPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.customer\\Ecommerce.api.customer.csproj",
+      "projectPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.customer\\Ecommerce.api.customer.csproj",
       "packagesPath": "C:\\Users\\zeinab.mahmoud\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.customer\\obj\\",
+      "outputPath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.customer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

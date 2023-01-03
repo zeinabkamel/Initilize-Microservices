@@ -7,7 +7,7 @@ namespace Ecommerce.api.product.Interfaces
 {
     public interface IprodcutProvider
     {
-        Task<(bool isSuccess, IEnumerable<ProductViewModel>,string ErrorMessage)> GetProductAsync();
-        Task<(bool isSuccess, ProductViewModel, string ErrorMessage)> GetProductByIdAsync(int Id);
+        Task<(bool isSuccess, IEnumerable<ProductViewModel> productViewModels, string ErrorMessage)> GetProductAsync();
+        Task<(bool isSuccess, ProductViewModel productViewModel, string ErrorMessage)> GetProductByIdAsync(int Id);
     }
 }

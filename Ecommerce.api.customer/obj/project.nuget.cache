@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+eLFcb8GjQ6r+Zob6lIMfFpP54E/nMzDyMTlhagrH+Xq3+SxU5XttzHbdNUPhSSYMn9wCepR04cGoAzqybVlHw==",
+  "dgSpecHash": "PsCRGsESGRgPxIHWnt012m5iuZPwSTSbBCyRj4ZSr9u4DvmCtZBYI3H0KM+eD2DjOAH79pE4E1IFvQf9HR9G/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Ecommerce.api.customer\\Ecommerce.api.customer.csproj",
+  "projectFilePath": "C:\\Users\\zeinab.mahmoud\\source\\repos\\Ecommerce\\Initilize-Microservices\\Ecommerce.api.customer\\Ecommerce.api.customer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zeinab.mahmoud\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\zeinab.mahmoud\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",

@@ -40,7 +40,7 @@ namespace Ecommerce.api.product.Providers
             }
         }
 
-        public async Task<(bool isSuccess, IEnumerable<ProductViewModel>, string ErrorMessage)> GetProductAsync()
+        public async Task<(bool isSuccess, IEnumerable<ProductViewModel> productViewModels, string ErrorMessage)> GetProductAsync()
         {
             try
             {
@@ -71,7 +71,7 @@ namespace Ecommerce.api.product.Providers
 
         }
 
-        public async Task<(bool isSuccess, ProductViewModel, string ErrorMessage)> GetProductByIdAsync(int Id)
+        public async Task<(bool isSuccess, ProductViewModel productViewModel, string ErrorMessage)> GetProductByIdAsync(int Id)
         {
             try
             {

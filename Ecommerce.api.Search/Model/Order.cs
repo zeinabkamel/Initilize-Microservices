@@ -10,5 +10,6 @@ namespace Ecommerce.api.Search.Model
         public DateTime OrderDate { get; set; }
         public decimal Total { get; set; }
         public List<OrderItem> orderItems { get; set; }
+ 
     }
 }
